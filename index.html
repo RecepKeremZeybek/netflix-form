@@ -8,6 +8,56 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <h1>NET<span style="color:red">FLIX</span></h1>
+    <p class="header">Thank you for signing up at Netflix. Please tell us more about yourself.</p>
+    <form action="">
+        <div class="inputs">
+        <div>
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    </div>
+    <div>
+        <label for="age">Age</label><br>
+        <input type="mumber" id="age" name="age" placeholder="Age" required>
+    </div>
+    <div>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    </div>
+    <div>
+        <label for="select">Content Type</label><br>
+        <select name="role" id="role">
+            <option value="series">Series</option>
+            <option value="movies">Movies</option>
+            <option value="reality">Reality</option>
+        </select>
+    </div>
+</div>
+    <div class="movie">
+        <p>Movie Type</p>
+        <input type="checkbox" id="comedy" name="movie">
+        <label for="comedy">Comedy</label><br>
+        <input type="checkbox" id="action" name="movie">
+        <label for="action">Action</label><br>
+        <input type="checkbox" id="romance" name="movie">
+        <label for="romance">Romance</label><br>
+    </div>
+    <div class="gender">
+        <p>Gender</p>
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender">
+        <label for="other">Other</label><br>
+    </div>
+    <div class="feedback">
+    <p>Feed Back</p>
+    <textarea name="feedback" id="" cols="30" rows="5" placeholder="Any comment"></textarea>
+</div>
+    <div>
+        <input type="submit" value="Submit">
+    </div>
+    </form>
 </body>
 </html>

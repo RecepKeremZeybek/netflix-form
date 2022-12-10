@@ -1,0 +1,54 @@
+*{
+ margin:0;
+ padding:0;
+ box-sizing: border-box;   
+}
+body{
+    background-image: url("./background_image.jpg");
+    text-align: center;
+}
+.header{
+    color: white;
+    font-weight:900;
+}
+
+form{
+    background-color: antiquewhite;
+    display: inline-block;
+    width:fit-content;
+    padding:20px;
+}
+
+.gender{
+    text-align: left;
+    padding:10px 10px;
+}
+.movie{
+    text-align: left;
+    padding:10px 10px;
+}
+.inputs{
+    text-align: left;
+}
+
+.inputs div{
+    padding:10px;
+    text-align: left;
+}
+inputs label{
+    text-align: left;
+    display: block;
+}
+.inputs input{
+    
+    padding: 10px 5px;
+    width: 350px;
+}
+.inputs select{
+    padding: 10px 5px;
+    width: 350px;
+}
+.feedback{
+    text-align: left;
+    padding:10px 10px;
+}
