@@ -6,14 +6,27 @@
 body{
     background-image: url("./background_image.jpg");
     text-align: center;
+    color: white;
+}
+
+.main{
+    background-color:rgba(0,0,0,.3);
+    margin: 30px;
+    
 }
 .header{
     color: white;
     font-weight:900;
 }
 
+h1{
+    padding:10px;
+}
+h1 + p{
+    padding: 10px;
+}
 form{
-    background-color: antiquewhite;
+    background-color:rgba(0, 0, 0, 0.568);
     display: inline-block;
     width:fit-content;
     padding:20px;
@@ -51,4 +64,11 @@ inputs label{
 .feedback{
     text-align: left;
     padding:10px 10px;
+}
+.submit{
+    background-color: red;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: white;
+    font-weight:900;
 }
